@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+box-sizing: border-box;
+padding: 0;
+font-family: "Josefin Sans","Arial Narrow","Arial",sans-serif;  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  margin-bottom: 10px;
+  color: white;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+}
+.center{
+  width: 35%;
+  
+  
+  height: 70vh;
+  background-color: rgb(235, 158, 158);
+  box-shadow: 5px 5px 40px -5px rgba(0,0,0,0.5 green, blue, alpha);
+  border-radius: 15px;
+  background-image: url(https://i.pinimg.com/originals/42/2b/b2/422bb20ca8140882840656315ad2e1de.jpg);
+  
+}
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-left: 15px;
+}
+.todo_style .fa-trash{
+  width: 25px;
+  height: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(94, 79, 79) ;
+  border-radius: 50%;
+  margin: 0 15px 0 35px;
+  color: rgb(238, 238, 240);
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+.todo_style .fa-trash:hover{
+  background-color: rgb(255, 72, 0);
+}
+.todo_style .fa-times:hover .list_Style{
+  background-color: chartreuse;
+}
+li {
+  list-style-type: none;
+  color: aliceblue;
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .center{
+    width: 55%;
+  }
+}
+input {
+  margin: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 40%;
+  padding: 8px;
+  
+  font-size: 16px;
+}
+.btn{
+  background-color: aqua;
+  margin-right: 5px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  color: rgb(0, 0, 0);
+}
+.btn:hover{
+  background-color: aliceblue;
+}
+
